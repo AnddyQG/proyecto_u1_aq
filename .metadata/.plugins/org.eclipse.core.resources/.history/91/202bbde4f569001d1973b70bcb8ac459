@@ -1,0 +1,9 @@
+package com.example.demo.herencia;
+
+public class PacienteH {
+protected Integer calcularDescuento() {
+	System.out.println("Sin descuento");
+	return 0;
+}
+
+}

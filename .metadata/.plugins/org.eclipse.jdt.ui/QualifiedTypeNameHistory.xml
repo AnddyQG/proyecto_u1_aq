@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.example.demo.tradicional.CitaMedica"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="com.example.demo.tradicional.PacienteTerceraEdad"/>
+    <fullyQualifiedTypeName name="com.example.demo.tradicional.Paciente"/>
+    <fullyQualifiedTypeName name="com.example.demo.tradicional.PacienteNinio"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+</qualifiedTypeNameHistroy>

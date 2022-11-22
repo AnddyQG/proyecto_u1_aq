@@ -1,0 +1,20 @@
+package com.example.demo.herencia;
+
+import java.time.LocalDateTime;
+
+import com.example.demo.tradicional.Medico;
+import com.example.demo.tradicional.Paciente;
+
+public class CitaMedicaH {
+
+	private String numero;
+	private LocalDateTime fechaCita;
+	private LocalDateTime fechaAgenda;
+	private MedicoH medicoh;
+	private PacienteH pacienteh;
+	
+	public void agendar() {
+		
+	}
+	
+}
