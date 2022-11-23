@@ -1,0 +1,28 @@
+package com.example.demo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.demo.springboot.PacienteCancerSB;
+
+@SpringBootApplication
+public class ProyectoU1FcApplication implements CommandLineRunner {
+
+	@Autowired
+	private  PacienteCancerSB pacienteCancer;
+	
+	public static void main(String[] args) {
+		SpringApplication.run(ProyectoU1FcApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		// TODO Auto-generated method stub
+		System.out.println(pacienteCancer);
+		System.out.println("Spring boot");
+
+	}
+
+}

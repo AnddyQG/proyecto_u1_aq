@@ -3,7 +3,14 @@
     <fullyQualifiedTypeName name="com.example.demo.tradicional.CitaMedica"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="com.example.demo.tradicional.PacienteTerceraEdad"/>
-    <fullyQualifiedTypeName name="com.example.demo.tradicional.Paciente"/>
     <fullyQualifiedTypeName name="com.example.demo.tradicional.PacienteNinio"/>
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="com.example.demo.tradicional.Paciente"/>
+    <fullyQualifiedTypeName name="com.example.demo.tradicional.PacienteCancer"/>
+    <fullyQualifiedTypeName name="com.example.demo.herencia.PacienteH"/>
+    <fullyQualifiedTypeName name="com.example.demo.herencia.PacienteTerceraEdadH"/>
+    <fullyQualifiedTypeName name="com.example.demo.herencia.CitaMedicaH"/>
+    <fullyQualifiedTypeName name="com.example.demo.herencia.MedicoH"/>
+    <fullyQualifiedTypeName name="com.example.demo.herencia.PacienteNinioH"/>
+    <fullyQualifiedTypeName name="com.example.demo.herencia.PacienteCancerH"/>
 </qualifiedTypeNameHistroy>
