@@ -1,0 +1,7 @@
+package com.example.demo.banco.modelo;
+
+public class CuentaBancaria {
+private String numero;
+private String tipoCuenta;
+
+}
