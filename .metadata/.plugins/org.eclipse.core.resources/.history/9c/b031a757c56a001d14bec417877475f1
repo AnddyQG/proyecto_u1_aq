@@ -1,8 +1,0 @@
-package com.example.demo.spring;
-
-public class PacienteCancerSB extends PacienteSB{
-	public Integer calcularDescuento() {
-		System.out.println("Paciente cancer con el 30% de descuento");
-		return 30;
-	}
-}
