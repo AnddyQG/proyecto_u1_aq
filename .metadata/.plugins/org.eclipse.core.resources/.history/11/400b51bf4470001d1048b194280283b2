@@ -1,0 +1,26 @@
+package com.example.demo.banco.service;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.banco.modelo.Transferencia;
+@Service
+public class TransferenciaServiceImpl implements ITransferenciaService{
+@Autowired
+	private ITransferenciaService transferenciaservice, 
+	@Override
+	public List<Transferencia> buscarReporte() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void realizar(String numeroOrigen, String numeroORigen2, BigDecimal monto) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
