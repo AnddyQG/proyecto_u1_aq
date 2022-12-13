@@ -1,0 +1,9 @@
+package com.example.demo.tienda.modelo;
+
+import java.time.LocalDateTime;
+
+public class Factura {
+
+	private Cliente cliente;
+	private LocalDateTime fecha;
+}

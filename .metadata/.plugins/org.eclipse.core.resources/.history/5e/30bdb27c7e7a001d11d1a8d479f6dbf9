@@ -1,0 +1,9 @@
+package com.example.demo.tienda.service;
+
+import java.util.List;
+
+public interface IFacturaService {
+
+	public void generar(String cedulaCliente,List<ItemTO>);
+	
+}

@@ -1,0 +1,56 @@
+package com.example.demo.tienda.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.example.demo.tienda.modelo.Cliente;
+@Service
+public class ClienteServiceImpl implements IClienteService{
+ public static List<Cliente> baseDeDatos= new ArrayList<>();
+	@Override
+	public void insertar(Cliente cliente) {
+		baseDeDatos.add(cliente);
+		
+	}
+
+	@Override
+	public void actualziar(Cliente cliente) {
+		
+		
+		Cliente cli = null;
+		for(Cliente c: baseDeDatos) {
+			if(c.getCedula().equals(cliente.getCedula())) {
+				cli=c;
+				
+				
+			}
+				
+				
+			}
+		baseDeDatos.remove(cli);
+		baseDeDatos.add(cliente);
+		
+	}
+
+	@Override
+	public Cliente buscar(String cedula) {
+		Cliente cli = null;
+		for(Cliente c:baseDeDatos) {
+			if(c.getCedula().equals(cedula)) {
+				cli=c;
+			}
+		}
+		return cli;
+	}
+
+	@Override
+	public void eliminar(String cedula) {
+		// TODO Auto-generated method stub
+		Cliente cli=buscar(cedula);
+		baseDeDatos.remove(cli);
+		
+	}
+
+}

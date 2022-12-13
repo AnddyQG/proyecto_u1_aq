@@ -1,0 +1,9 @@
+package com.example.demo.tienda.service;
+
+
+
+public interface IFacturaService {
+
+	public void generar(String cedulaCliente);
+	
+}
